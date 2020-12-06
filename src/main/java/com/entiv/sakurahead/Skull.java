@@ -46,7 +46,7 @@ class Skull {
 
     ItemStack getItemStack() {
 
-        ItemStack head = new ItemStack(Material.PLAYER_HEAD, 1);
+        ItemStack head = new ItemStack(Material.SKULL_ITEM, 1, (short) 3);
         NBTItem nbtItem = new NBTItem(head);
 
         NBTCompound skull = nbtItem.addCompound("SkullOwner");

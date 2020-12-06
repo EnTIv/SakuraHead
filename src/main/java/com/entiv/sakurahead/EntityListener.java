@@ -64,7 +64,7 @@ public class EntityListener implements Listener {
 
         for (ItemStack itemStack : drops) {
 
-            if (!itemStack.getType().equals(Material.PLAYER_HEAD)) continue;
+            if (!itemStack.getType().equals(Material.SKULL_ITEM)) continue;
 
             NBTItem nbtItem = new NBTItem(itemStack);
             String value = nbtItem.getCompound("SkullOwner").getCompound("Properties").getCompoundList("textures").get(0).getString("Value");
@@ -99,7 +99,7 @@ public class EntityListener implements Listener {
 
     private void givePlayerSkull(Player killer, Player killed) {
 
-        ItemStack itemStack = new ItemStack(Material.PLAYER_HEAD);
+        ItemStack itemStack = new ItemStack(Material.SKULL_ITEM,1 , (short) 3);
         SkullMeta itemMeta = (SkullMeta) itemStack.getItemMeta();
 
         itemMeta.setDisplayName(plugin.getConfig().getString("Player.DisplayName").replace("%killed%", killed.getName()));
