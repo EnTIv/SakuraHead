@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'com.entiv'
-version 'Legacy'
+version '1.3'
 
 repositories {
     maven { url 'https://papermc.io/repo/repository/maven-public/' }
