@@ -1,11 +1,11 @@
 package com.entiv.sakurahead;
 
-import com.entiv.sakurahead.utils.Message;
+import com.destroystokyo.paper.Title;
 import de.tr7zw.nbtapi.NBTItem;
+import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.configuration.ConfigurationSection;
-import org.bukkit.entity.ArmorStand;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
@@ -18,7 +18,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.SkullMeta;
 
 import java.util.Collection;
-import java.util.List;
 
 public class EntityListener implements Listener {
 
@@ -37,7 +36,6 @@ public class EntityListener implements Listener {
         double playerChange = plugin.getConfig().getDouble("Player.Change");
 
         if (entityType.equals(EntityType.PLAYER) && playerChange > Math.random()) {
-
             givePlayerSkull(killer, (Player) entity);
             return;
         }
@@ -52,6 +50,7 @@ public class EntityListener implements Listener {
             String dropMobHead = plugin.getConfig().getString("Message.DropMobHead");
 
             plugin.getServer().broadcastMessage(Message.toColor(Message.replace(dropMobHead, "%player%", killer.getName(), "%target%", Message.withoutColor(entitySkull.type))));
+            sendTitle(killer);
         }
     }
 
@@ -74,8 +73,7 @@ public class EntityListener implements Listener {
             String entityName = getEntityName(value);
 
             if (entityName == null) return;
-
-            Skull skull = Main.getInstance().getSkull(EntityType.valueOf(entityName));
+            Skull skull = Main.getInstance().getSkull(entityName);
 
             event.setDropItems(false);
             Location location = event.getBlock().getLocation();
@@ -88,9 +86,7 @@ public class EntityListener implements Listener {
     private String getEntityName(String value) {
         ConfigurationSection section = plugin.getConfig().getConfigurationSection("SkullType");
         if (section == null) return null;
-
         for (String entityName : section.getKeys(false)) {
-
             String configValue = section.getString(entityName.concat(".Value"));
             if (value.equals(configValue)) return entityName;
         }
@@ -99,7 +95,7 @@ public class EntityListener implements Listener {
 
     private void givePlayerSkull(Player killer, Player killed) {
 
-        ItemStack itemStack = new ItemStack(Material.SKULL_ITEM,1 , (short) 3);
+        ItemStack itemStack = new ItemStack(Material.SKULL_ITEM, 1, (short) 3);
         SkullMeta itemMeta = (SkullMeta) itemStack.getItemMeta();
 
         itemMeta.setDisplayName(plugin.getConfig().getString("Player.DisplayName").replace("%killed%", killed.getName()));
@@ -110,7 +106,17 @@ public class EntityListener implements Listener {
         String dropPlayerHead = plugin.getConfig().getString("Message.DropPlayerHead").replace("%player%", killer.getName()).replace("%target%", killed.getName());
 
         Message.sendAllPlayers(dropPlayerHead);
+        sendTitle(killer);
     }
 
+    private void sendTitle(Player player) {
+        if (Bukkit.getVersion().contains("Paper")) {
+            String title = Message.toColor(plugin.getConfig().getString("Message.Title"));
+            String subTitle = Message.toColor(plugin.getConfig().getString("Message.SubTitle"));
+
+            player.sendTitle(new Title(title, subTitle,20,20,20));
+        }
+
+    }
 
 }

@@ -1,10 +1,12 @@
-package com.entiv.sakurahead.utils;
+package com.entiv.sakurahead;
 
+import com.destroystokyo.paper.Title;
 import com.entiv.sakurahead.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.ConsoleCommandSender;
+import org.bukkit.entity.Player;
 
 import java.text.DecimalFormat;
 import java.util.List;
@@ -30,6 +32,15 @@ public class Message {
     public static void send(CommandSender sender, String message) {
         if (message == null || message.isEmpty()) return;
         sender.sendMessage(toColor(message));
+    }
+
+    public static void send(CommandSender sender, Title message) {
+        if (message == null) return;
+
+        if (sender instanceof Player) {
+            Player player = (Player) sender;
+
+        }
     }
 
     public static void sendConsole(String message) {
@@ -130,4 +141,6 @@ public class Message {
 
         return strings;
     }
+
+
 }

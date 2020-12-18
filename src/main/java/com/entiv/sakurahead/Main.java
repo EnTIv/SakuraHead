@@ -1,6 +1,5 @@
 package com.entiv.sakurahead;
 
-import com.entiv.sakurahead.utils.Message;
 import org.bukkit.Bukkit;
 import org.bukkit.command.PluginCommand;
 import org.bukkit.configuration.ConfigurationSection;
@@ -35,6 +34,7 @@ public class Main extends JavaPlugin {
             command.setExecutor(new MainCommand());
             command.setTabCompleter(new MainCommand());
         }
+
     }
 
     @Override
@@ -59,6 +59,23 @@ public class Main extends JavaPlugin {
         String displayName = skullType.getString(entityType + ".DisplayName");
         List<String> lore = skullType.getStringList(entityType + ".Lore");
         String value = skullType.getString(entityType + ".Value");
+
+        return new Skull(change, displayName, lore, value);
+    }
+
+    public Skull getSkull(String name) {
+
+        ConfigurationSection skullType = getConfigurationSection();
+
+        if (skullType.getString(name) == null) {
+            Message.sendConsole("&9&lSakuraHead &6&l>> &c生物 " + name + " 不存在, 请检查配置文件");
+            return null;
+        }
+
+        double change = skullType.getDouble(name + ".Change");
+        String displayName = skullType.getString(name + ".DisplayName");
+        List<String> lore = skullType.getStringList(name + ".Lore");
+        String value = skullType.getString(name + ".Value");
 
         return new Skull(change, displayName, lore, value);
     }

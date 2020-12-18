@@ -1,7 +1,5 @@
 package com.entiv.sakurahead;
 
-import com.entiv.sakurahead.utils.ItemBuilder;
-import com.entiv.sakurahead.utils.Message;
 import de.tr7zw.nbtapi.NBTCompound;
 import de.tr7zw.nbtapi.NBTItem;
 import de.tr7zw.nbtapi.NBTListCompound;
@@ -35,7 +33,7 @@ class Skull {
         this.lore = lore;
         this.type = type;
 
-        this.displayName = Message.toColor(type + "的头");
+        this.displayName = Message.toColor(type);
         this.texturesValue = texturesValue;
         this.change = change;
     }
@@ -54,7 +52,23 @@ class Skull {
 
         NBTListCompound texture = skull.addCompound("Properties").getCompoundList("textures").addCompound();
         texture.setString("Value", texturesValue);
+        nbtItem.setString("type", "类型测试");
 
+        ItemStack itemStack = nbtItem.getItem();
+
+        return new ItemBuilder(itemStack).name(displayName).lore(lore).build();
+    }
+
+    ItemStack getItemStack(int amount) {
+
+        ItemStack head = new ItemStack(Material.SKULL_ITEM, amount, (short) 3);
+        NBTItem nbtItem = new NBTItem(head);
+
+        NBTCompound skull = nbtItem.addCompound("SkullOwner");
+        skull.setString("Id", String.valueOf(UUID.randomUUID()));
+
+        NBTListCompound texture = skull.addCompound("Properties").getCompoundList("textures").addCompound();
+        texture.setString("Value", texturesValue);
         ItemStack itemStack = nbtItem.getItem();
 
         return new ItemBuilder(itemStack).name(displayName).lore(lore).build();

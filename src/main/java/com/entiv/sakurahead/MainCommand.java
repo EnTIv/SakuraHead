@@ -1,52 +1,72 @@
 package com.entiv.sakurahead;
 
-import com.entiv.sakurahead.utils.Message;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
-import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 
 public class MainCommand implements CommandExecutor, TabCompleter {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (sender.isOp()) {
-            Main plugin = Main.getInstance();
 
-            if ("reload".equals(args[0])) {
+        if (!sender.isOp()) return true;
 
-                plugin.reloadConfig();
+        Main plugin = Main.getInstance();
 
-                String message = plugin.getConfig().getString("Message.".concat("Reload"));
-                Message.send(sender, message);
+        if (args.length == 1 && args[0].equals("reload")) {
 
-            } else if ("give".equals(args[0])) {
+            plugin.reloadConfig();
+            Message.send(sender, "&9&l樱花头颅&6&l >> &a插件重载成功!");
 
-                try {
+        } else if (args.length >= 3 && args[0].equals("give")) {
 
-                    Player player = Objects.requireNonNull(Bukkit.getPlayer(args[1]));
+            Player player = Bukkit.getPlayer(args[1]);
+            Skull skull = plugin.getSkull(args[2]);
 
-                    Skull skull = plugin.getSkull(EntityType.valueOf(args[2].toUpperCase()));
-                    player.getInventory().addItem(skull.getItemStack());
-
-                    Message.send(sender, "发送成功");
-
-                } catch (ArrayIndexOutOfBoundsException e) {
-                    Message.send(sender, "Message.".concat("参数不足"));
-                } catch (NullPointerException e) {
-                    Message.send(sender, "玩家当前不在线");
-                } catch (IllegalArgumentException e) {
-                    Message.send(sender, "生物类型输入错误");
-                }
+            if (player == null) {
+                Message.send(sender, "&9&l樱花头颅&6&l >> &c玩家 &b&l" + args[1] + "&c 当前不在线");
+                return true;
             }
 
+            if (skull == null) {
+                Message.send(sender, "&9&l樱花头颅&6&l >> &c生物类型 &b&l" + args[2] + "&c 不存在, 请检查配置文件, 注意大小写");
+                return true;
+            }
+
+            try {
+
+                ItemStack itemStack = skull.getItemStack(Integer.parseInt(args[3]));
+                player.getInventory().addItem(itemStack);
+
+            } catch (Exception e) {
+
+                ItemStack itemStack = skull.getItemStack();
+                player.getInventory().addItem(itemStack);
+
+            } finally {
+                Message.send(sender, "&9&l樱花头颅&6&l >> &a成功将头颅 &b&l" + args[2] + "&a 给予玩家 &b&l" + player.getName() + "");
+            }
+
+
+        } else {
+
+            List<String> message = new ArrayList<>();
+
+            message.add("&6&m+------------------+&9&l 樱花头颅 &6&m+------------------+");
+            message.add("");
+            message.add("&d/head reload &e重载配置文件");
+            message.add("&d/head give 玩家 头颅 数量 &e给予玩家指定数量的头颅");
+            message.add("");
+
+            Message.send(sender, message);
         }
         return true;
     }
@@ -71,13 +91,14 @@ public class MainCommand implements CommandExecutor, TabCompleter {
             List<String> tabComplete = new ArrayList<>(plugin.getConfigurationSection().getKeys(false));
 
             if (!args[args.length - 1].trim().isEmpty()) {
-                String match = args[args.length - 1].trim().toLowerCase();
-                tabComplete.removeIf(name -> !name.toLowerCase().startsWith(match));
+                String match = args[args.length - 1].trim();
+                tabComplete.removeIf(name -> !name.startsWith(match));
             }
 
-            tabComplete.replaceAll(String::toLowerCase);
-
             return tabComplete;
+
+        } else if (args.length == 4) {
+            return Arrays.asList("1", "2", "3");
         }
         return null;
     }

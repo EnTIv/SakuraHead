@@ -1,4 +1,4 @@
-package com.entiv.sakurahead.utils;
+package com.entiv.sakurahead;
 
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
