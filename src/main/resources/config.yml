@@ -589,6 +589,7 @@ SkullType:
       - ""
       - "&7绿巨人的头颅, 购买VIP赠送"
     Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY3ODZmZjk3NTkyMGE3NjU1ZGYwMjA2ODk2N2FiMTM3ZGZhNTk1MGE3ZTgzNmEyNGQxY2JiMTFlYWFhNmUifX19"
+
 Player:
   Change: 0.001
   DisplayName: "&d&l%killed%的头"
@@ -599,3 +600,4 @@ Message:
   DropMobHead: "&9&l樱花斩首&6&l >> &a玩家&e&l %player% &a斩首了&e&l %target% &a的头颅!"
   DropPlayerHead: "&9&l樱花斩首&6&l >> &a玩家&e&l %player% &a斩首了&e&l %target% &a的头颅!"
 
+DropInventory: false

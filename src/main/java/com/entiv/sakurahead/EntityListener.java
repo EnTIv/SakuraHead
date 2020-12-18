@@ -36,20 +36,16 @@ public class EntityListener implements Listener {
         double playerChange = plugin.getConfig().getDouble("Player.Change");
 
         if (entityType.equals(EntityType.PLAYER) && playerChange > Math.random()) {
-            givePlayerSkull(killer, (Player) entity);
+            givePlayerSkull(killer, event);
+            sendTitle(killer);
+
             return;
         }
 
         Skull entitySkull = Main.getInstance().getSkull(entityType);
 
         if (entitySkull.getChange() >= Math.random()) {
-
-            ItemStack skull = entitySkull.getItemStack();
-            event.getDrops().add(skull);
-
-            String dropMobHead = plugin.getConfig().getString("Message.DropMobHead");
-
-            plugin.getServer().broadcastMessage(Message.toColor(Message.replace(dropMobHead, "%player%", killer.getName(), "%target%", Message.withoutColor(entitySkull.type))));
+            giveMobSkull(entitySkull, event);
             sendTitle(killer);
         }
     }
@@ -93,20 +89,46 @@ public class EntityListener implements Listener {
         return null;
     }
 
-    private void givePlayerSkull(Player killer, Player killed) {
+    private void givePlayerSkull(Player killer, EntityDeathEvent event) {
 
         ItemStack itemStack = new ItemStack(Material.SKULL_ITEM, 1, (short) 3);
         SkullMeta itemMeta = (SkullMeta) itemStack.getItemMeta();
+        Player killed = (Player) event.getEntity();
 
         itemMeta.setDisplayName(plugin.getConfig().getString("Player.DisplayName").replace("%killed%", killed.getName()));
         itemMeta.setOwningPlayer(killed);
         itemStack.setItemMeta(itemMeta);
 
         killer.getInventory().addItem(itemStack);
-        String dropPlayerHead = plugin.getConfig().getString("Message.DropPlayerHead").replace("%player%", killer.getName()).replace("%target%", killed.getName());
 
+        boolean dropInventory = Main.getInstance().getConfig().getBoolean("DropInventory");
+
+        if (dropInventory) {
+            killer.getInventory().addItem(itemStack);
+        } else {
+            event.getDrops().add(itemStack);
+        }
+
+        String dropPlayerHead = plugin.getConfig().getString("Message.DropPlayerHead").replace("%player%", killer.getName()).replace("%target%", killed.getName());
         Message.sendAllPlayers(dropPlayerHead);
+    }
+
+    private void giveMobSkull(Skull entitySkull, EntityDeathEvent event) {
+        ItemStack skull = entitySkull.getItemStack();
+        Player killer = event.getEntity().getKiller();
+        String dropMobHead = plugin.getConfig().getString("Message.DropMobHead");
+
         sendTitle(killer);
+        boolean dropInventory = Main.getInstance().getConfig().getBoolean("DropInventory");
+
+        if (dropInventory) {
+            killer.getInventory().addItem(skull);
+        } else {
+            event.getDrops().add(skull);
+        }
+
+        String message = Message.toColor(Message.replace(dropMobHead, "%player%", killer.getName(), "%target%", Message.withoutColor(entitySkull.type)));
+        plugin.getServer().broadcastMessage(message);
     }
 
     private void sendTitle(Player player) {
