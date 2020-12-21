@@ -53,6 +53,8 @@ public class EntityListener implements Listener {
     @EventHandler(priority = EventPriority.HIGH)
     void onBreakBlock(BlockBreakEvent event) {
 
+        if (Bukkit.getVersion().contains("CatServer") ) return;
+
         if (event.isCancelled()) return;
 
         Collection<ItemStack> drops = event.getBlock().getDrops();
