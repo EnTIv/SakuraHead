@@ -35,6 +35,9 @@ public class Main extends JavaPlugin {
             command.setTabCompleter(new MainCommand());
         }
 
+        if (Bukkit.getPluginManager().getPlugin("NBTAPI") == null) {
+            Message.sendConsole("&9&l樱花头颅 &6&l>> &c 检测到未安装 NBTAPI 前置, 保留 name 和 lore 功能已禁用");
+        }
     }
 
     @Override

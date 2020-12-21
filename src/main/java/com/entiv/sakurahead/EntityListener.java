@@ -53,7 +53,10 @@ public class EntityListener implements Listener {
     @EventHandler(priority = EventPriority.HIGH)
     void onBreakBlock(BlockBreakEvent event) {
 
-        if (Bukkit.getVersion().contains("CatServer") ) return;
+        String version = Bukkit.getVersion();
+
+        if (version.contains("CatServer") || version.contains("arclight")) return;
+        if (Bukkit.getPluginManager().getPlugin("NBTAPI") == null) return;
 
         if (event.isCancelled()) return;
 
