@@ -48,7 +48,6 @@ public class MainCommand implements CommandExecutor, TabCompleter {
                 player.getInventory().addItem(itemStack);
 
             } catch (Exception e) {
-
                 ItemStack itemStack = skull.getItemStack();
                 player.getInventory().addItem(itemStack);
 

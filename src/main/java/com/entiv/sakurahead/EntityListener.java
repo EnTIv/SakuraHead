@@ -71,8 +71,7 @@ public class EntityListener implements Listener {
 
             if (value == null) continue;
 
-            String entityName = getEntityName(value);
-
+            String entityName = getEntityNameFromValue(value);
             if (entityName == null) return;
             Skull skull = Main.getInstance().getSkull(entityName);
 
@@ -84,7 +83,7 @@ public class EntityListener implements Listener {
         }
     }
 
-    private String getEntityName(String value) {
+    private String getEntityNameFromValue(String value) {
         ConfigurationSection section = plugin.getConfig().getConfigurationSection("SkullType");
         if (section == null) return null;
         for (String entityName : section.getKeys(false)) {
