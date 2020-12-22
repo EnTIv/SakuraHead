@@ -55,9 +55,8 @@ public class EntityListener implements Listener {
 
         String version = Bukkit.getVersion();
 
-        if (version.contains("CatServer") || version.contains("arclight")) return;
+        if (version.contains("arclight")) return;
         if (Bukkit.getPluginManager().getPlugin("NBTAPI") == null) return;
-
         if (event.isCancelled()) return;
 
         Collection<ItemStack> drops = event.getBlock().getDrops();
@@ -75,7 +74,13 @@ public class EntityListener implements Listener {
             if (entityName == null) return;
             Skull skull = Main.getInstance().getSkull(entityName);
 
-            event.setDropItems(false);
+            if (version.contains("CatServer")) {
+                event.setCancelled(true);
+                event.getBlock().setType(Material.AIR);
+            } else {
+                event.setDropItems(false);
+            }
+
             Location location = event.getBlock().getLocation();
 
             ItemStack skullItemStack = skull.getItemStack();
