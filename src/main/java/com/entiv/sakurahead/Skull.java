@@ -48,7 +48,7 @@ class Skull {
         NBTItem nbtItem = new NBTItem(head);
 
         NBTCompound skull = nbtItem.addCompound("SkullOwner");
-        skull.setString("Id", String.valueOf(UUID.randomUUID()));
+        skull.setString("Id", "ca9fc57f-9b89-4c75-90ad-7afa3b0ebc03");
 
         NBTListCompound texture = skull.addCompound("Properties").getCompoundList("textures").addCompound();
         texture.setString("Value", texturesValue);
@@ -66,7 +66,6 @@ class Skull {
 
         NBTCompound skull = nbtItem.addCompound("SkullOwner");
         skull.setString("Id", String.valueOf(UUID.randomUUID()));
-
         NBTListCompound texture = skull.addCompound("Properties").getCompoundList("textures").addCompound();
         texture.setString("Value", texturesValue);
         ItemStack itemStack = nbtItem.getItem();

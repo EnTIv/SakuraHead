@@ -137,7 +137,7 @@ public class EntityListener implements Listener {
         }
 
         String message = Message.toColor(Message.replace(dropMobHead, "%player%", killer.getName(), "%target%", Message.withoutColor(entitySkull.type)));
-        plugin.getServer().broadcastMessage(message);
+        plugin.getServer().broadcastMessage(message.replaceFirst("的头", ""));
     }
 
     private void sendTitle(Player player) {
@@ -145,7 +145,7 @@ public class EntityListener implements Listener {
             String title = Message.toColor(plugin.getConfig().getString("Message.Title"));
             String subTitle = Message.toColor(plugin.getConfig().getString("Message.SubTitle"));
 
-            player.sendTitle(new Title(title, subTitle,20,20,20));
+            player.sendTitle(new Title(title, subTitle, 20, 20, 20));
         }
 
     }
