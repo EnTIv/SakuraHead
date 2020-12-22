@@ -52,7 +52,6 @@ class Skull {
 
         NBTListCompound texture = skull.addCompound("Properties").getCompoundList("textures").addCompound();
         texture.setString("Value", texturesValue);
-        nbtItem.setString("type", "类型测试");
 
         ItemStack itemStack = nbtItem.getItem();
 
