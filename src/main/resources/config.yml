@@ -597,8 +597,8 @@ Player:
 Message:
   Title: "&d斩首"
   SubTitle: "&a恭喜你斩下了生物的头颅"
-  DropMobHead: "&9&l樱花斩首&6&l >> &a玩家&e&l %player% &a斩首了&e&l %target% &a的头颅!"
-  DropPlayerHead: "&9&l樱花斩首&6&l >> &a玩家&e&l %player% &a斩首了&e&l %target% &a的头颅!"
-
+  DropMobHead: "&9&l樱花头颅&6&l >> &a玩家&e&l %player% &a斩首了&e&l %target% &a的头颅!"
+  DropPlayerHead: "&9&l樱花头颅&6&l >> &a玩家&e&l %player% &a斩首了&e&l %target% &a的头颅!"
+  InventoryFull: "&9&l樱花头颅&6&l >> &c您的背包已满, 头颅已掉落到您的脚边哦"
 # 是否直接发送到玩家背包, 改为 true 直接发送到玩家背包
 DropInventory: false

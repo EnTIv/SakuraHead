@@ -1,6 +1,8 @@
 package com.entiv.sakurahead;
 
 import org.bukkit.Bukkit;
+import org.bukkit.Location;
+import org.bukkit.World;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -11,9 +13,19 @@ import org.bukkit.inventory.ItemStack;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.UUID;
 
 public class MainCommand implements CommandExecutor, TabCompleter {
+
+    public static void giveSkull(Player player, ItemStack itemStack) {
+        if (!player.getInventory().addItem(itemStack).isEmpty()) {
+            Location location = player.getLocation();
+            World world = player.getWorld();
+            world.dropItem(location, itemStack);
+
+            String message = Main.getInstance().getConfig().getString("Message.InventoryFull");
+            Message.send(player, message);
+        }
+    }
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
@@ -45,11 +57,11 @@ public class MainCommand implements CommandExecutor, TabCompleter {
             try {
 
                 ItemStack itemStack = skull.getItemStack(Integer.parseInt(args[3]));
-                player.getInventory().addItem(itemStack);
+                giveSkull(player, itemStack);
 
             } catch (Exception e) {
                 ItemStack itemStack = skull.getItemStack();
-                player.getInventory().addItem(itemStack);
+                giveSkull(player, itemStack);
 
             } finally {
                 Message.send(sender, "&9&l樱花头颅&6&l >> &a成功将头颅 &b&l" + args[2] + "&a 给予玩家 &b&l" + player.getName() + "");

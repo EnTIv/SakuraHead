@@ -5,6 +5,7 @@ import de.tr7zw.nbtapi.NBTItem;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
+import org.bukkit.World;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.LivingEntity;
@@ -16,8 +17,10 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.entity.EntityDeathEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.SkullMeta;
+import org.bukkit.plugin.Plugin;
 
 import java.util.Collection;
+import java.util.HashMap;
 
 public class EntityListener implements Listener {
 
@@ -54,10 +57,10 @@ public class EntityListener implements Listener {
     void onBreakBlock(BlockBreakEvent event) {
 
         String version = Bukkit.getVersion();
+        Plugin nbtapi = Bukkit.getPluginManager().getPlugin("NBTAPI");
 
-        if (version.contains("arclight")) return;
-        if (Bukkit.getPluginManager().getPlugin("NBTAPI") == null) return;
         if (event.isCancelled()) return;
+        if (nbtapi == null) return;
 
         Collection<ItemStack> drops = event.getBlock().getDrops();
 
@@ -113,7 +116,7 @@ public class EntityListener implements Listener {
         boolean dropInventory = Main.getInstance().getConfig().getBoolean("DropInventory");
 
         if (dropInventory) {
-            killer.getInventory().addItem(itemStack);
+            MainCommand.giveSkull(killer, itemStack);
         } else {
             event.getDrops().add(itemStack);
         }
@@ -123,7 +126,8 @@ public class EntityListener implements Listener {
     }
 
     private void giveMobSkull(Skull entitySkull, EntityDeathEvent event) {
-        ItemStack skull = entitySkull.getItemStack();
+
+        ItemStack itemStack = entitySkull.getItemStack();
         Player killer = event.getEntity().getKiller();
         String dropMobHead = plugin.getConfig().getString("Message.DropMobHead");
 
@@ -131,9 +135,11 @@ public class EntityListener implements Listener {
         boolean dropInventory = Main.getInstance().getConfig().getBoolean("DropInventory");
 
         if (dropInventory) {
-            killer.getInventory().addItem(skull);
+
+            MainCommand.giveSkull(killer, itemStack);
+
         } else {
-            event.getDrops().add(skull);
+            event.getDrops().add(itemStack);
         }
 
         String message = Message.toColor(Message.replace(dropMobHead, "%player%", killer.getName(), "%target%", Message.withoutColor(entitySkull.type)));
