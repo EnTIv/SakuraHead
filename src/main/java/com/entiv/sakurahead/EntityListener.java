@@ -1,6 +1,7 @@
 package com.entiv.sakurahead;
 
 import com.destroystokyo.paper.Title;
+import de.tr7zw.nbtapi.NBTCompound;
 import de.tr7zw.nbtapi.NBTItem;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -69,8 +70,11 @@ public class EntityListener implements Listener {
             if (!itemStack.getType().equals(Material.SKULL_ITEM)) continue;
 
             NBTItem nbtItem = new NBTItem(itemStack);
-            String value = nbtItem.getCompound("SkullOwner").getCompound("Properties").getCompoundList("textures").get(0).getString("Value");
 
+            NBTCompound skullOwner = nbtItem.getCompound("SkullOwner");
+            if (skullOwner == null) return;
+
+            String value = skullOwner.getCompound("Properties").getCompoundList("textures").get(0).getString("Value");
             if (value == null) continue;
 
             String entityName = getEntityNameFromValue(value);
