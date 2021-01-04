@@ -65,6 +65,8 @@ public class EntityListener implements Listener {
 
         if (event.isCancelled()) return;
         if (nbtapi == null) return;
+        if (version.contains("Thermos")) return;
+        if (version.contains("arclight")) return;
 
         Collection<ItemStack> drops = event.getBlock().getDrops();
 

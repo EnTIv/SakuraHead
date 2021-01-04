@@ -1,7 +1,7 @@
 name: SakuraHead
 main: com.entiv.sakurahead.Main
-version: 1.4
-depend:
+version: 1.6
+softdepend:
   - NBTAPI
 
 commands:

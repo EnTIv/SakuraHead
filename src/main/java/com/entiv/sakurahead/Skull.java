@@ -1,11 +1,18 @@
 package com.entiv.sakurahead;
 
+import com.mojang.authlib.GameProfile;
+import com.mojang.authlib.properties.Property;
 import de.tr7zw.nbtapi.NBTCompound;
 import de.tr7zw.nbtapi.NBTItem;
 import de.tr7zw.nbtapi.NBTListCompound;
+import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.SkullMeta;
+import org.bukkit.plugin.Plugin;
 
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -43,12 +50,18 @@ class Skull {
     }
 
     ItemStack getItemStack() {
+        Plugin nbtapi = Bukkit.getPluginManager().getPlugin("NBTAPI");
+        String version = Bukkit.getVersion();
+
+        if (nbtapi == null || version.contains("arclight")) {
+            return noNBTItem(texturesValue);
+        }
 
         ItemStack head = new ItemStack(Material.SKULL_ITEM, 1, (short) 3);
         NBTItem nbtItem = new NBTItem(head);
 
         NBTCompound skull = nbtItem.addCompound("SkullOwner");
-        skull.setString("Id", "ca9fc57f-9b89-4c75-90ad-7afa3b0ebc03");
+        skull.setString("Id", UUID.randomUUID().toString());
 
         NBTListCompound texture = skull.addCompound("Properties").getCompoundList("textures").addCompound();
         texture.setString("Value", texturesValue);
@@ -60,16 +73,32 @@ class Skull {
 
     ItemStack getItemStack(int amount) {
 
-        ItemStack head = new ItemStack(Material.SKULL_ITEM, amount, (short) 3);
-        NBTItem nbtItem = new NBTItem(head);
+        ItemStack itemStack = getItemStack();
+        itemStack.setAmount(amount);
 
-        NBTCompound skull = nbtItem.addCompound("SkullOwner");
-        skull.setString("Id", String.valueOf(UUID.randomUUID()));
-        NBTListCompound texture = skull.addCompound("Properties").getCompoundList("textures").addCompound();
-        texture.setString("Value", texturesValue);
-        ItemStack itemStack = nbtItem.getItem();
+        return itemStack;
+    }
 
-        return new ItemBuilder(itemStack).name(displayName).lore(lore).build();
+    private ItemStack noNBTItem(String texturesValue) {
+        ItemStack head = new ItemStack(Material.SKULL_ITEM, 1, (short) 3);
+
+        if (texturesValue == null) return head;
+
+        SkullMeta skullMeta = (SkullMeta) head.getItemMeta();
+        GameProfile profile = new GameProfile(UUID.randomUUID(), null);
+
+        profile.getProperties().put("textures", new Property("textures", texturesValue));
+
+        try {
+            Method mtd = skullMeta.getClass().getDeclaredMethod("setProfile", GameProfile.class);
+            mtd.setAccessible(true);
+            mtd.invoke(skullMeta, profile);
+        } catch (IllegalAccessException | InvocationTargetException | NoSuchMethodException ex) {
+            ex.printStackTrace();
+        }
+
+        head.setItemMeta(skullMeta);
+        return head;
     }
 }
 
