@@ -62,8 +62,9 @@ public class Main extends JavaPlugin {
         String displayName = skullType.getString(entityType + ".DisplayName");
         List<String> lore = skullType.getStringList(entityType + ".Lore");
         String value = skullType.getString(entityType + ".Value");
+        String uuid = skullType.getString(entityType + ".UUID");
 
-        return new Skull(change, displayName, lore, value);
+        return new Skull(change, displayName, lore, value, uuid);
     }
 
     public Skull getSkull(String name) {
@@ -79,8 +80,9 @@ public class Main extends JavaPlugin {
         String displayName = skullType.getString(name + ".DisplayName");
         List<String> lore = skullType.getStringList(name + ".Lore");
         String value = skullType.getString(name + ".Value");
+        String uuid = skullType.getString(name + ".UUID");
 
-        return new Skull(change, displayName, lore, value);
+        return new Skull(change, displayName, lore, value, uuid);
     }
 
     public ConfigurationSection getConfigurationSection() {

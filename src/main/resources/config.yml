@@ -9,6 +9,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODEwNDM0MzQyNTIsInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBjNTZjOTNlY2Q0MmFiNWQ1MTkyNDUyOGU1YTFjYjdiMWE4YmQ1N2I0NDM1ZmY5MmQxNTJkODRkNDNjN2E0ZCJ9fX0="
+    UUID: "421ef7e5-122e-40f5-a779-9f159fb91b23"
 
   BLAZE:
     Change: 0.001
@@ -17,6 +18,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODExMDgzMTk4NjEsInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU2NTg2ODlkMmQ2MWE3YTc1YjRmNWM0MTkyZTg5OWVjYWMxNmEwOGZmNDE2ZDk5NWY1YzEwYzc3YWEifX19"
+    UUID: "8b2dca47-33b4-400f-b82f-7a139067cf33"
 
   CAVE_SPIDER:
     Change: 0.001
@@ -25,6 +27,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0NjczMTAyOTg5MzQsInByb2ZpbGVJZCI6ImRhNzQ2NWVkMjljYjRkZTA5MzRkOTIwMTc0NDkxMzU1IiwicHJvZmlsZU5hbWUiOiJJc2F5bGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE1YzdlOTQzYjk4M2VmZmE4YmI4NzA3MjYwMjBiMWI4NWIyZGMzOWRlZTVlZTY4NTI5NWNlNGM4Nzk0ZWUyIn19fQ=="
+    UUID: "8b2dca47-33b4-400f-b82f-7a139067cf34"
 
   CHICKEN:
     Change: 0.001
@@ -33,6 +36,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0NjczMTA0MjIxNTYsInByb2ZpbGVJZCI6IjQzYTgzNzNkNjQyOTQ1MTBhOWFhYjMwZjViM2NlYmIzIiwicHJvZmlsZU5hbWUiOiJTa3VsbENsaWVudFNraW42Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYTllNTZhMjU1OTU3N2U5ODVlYmMwY2NlMDMyZDZiM2VlYWNiMDg3ZmM3MzQxY2NmZjVkMzRkOGQxYTM0In19fQ="
+    UUID: "181b6c05-c9e3-47f8-bc9a-be8870cd4db5"
 
   COW:
     Change: 0.001
@@ -41,6 +45,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ2YzZlZGE5NDJmN2Y1ZjcxYzMxNjFjNzMwNmY0YWVkMzA3ZDgyODk1ZjlkMmIwN2FiNDUyNTcxOGVkYzUifX19"
+    UUID: "d2139a90-2671-4e44-af18-d3cf08620ece"
 
   CREEPER:
     Change: 0.001
@@ -49,6 +54,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0NjczMTAyMjU0OTYsInByb2ZpbGVJZCI6ImM5YjFmYTJiNjhkMjQ3N2U4NzgxYTYwNjMwMWIzMmFiIiwicHJvZmlsZU5hbWUiOiJBbnRob255OTE5MCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk1ZWY4MzYzODlhZjk5MzE1OGFiYTI3ZmYzN2I2NTY3MTg1ZjdhNzIxY2E5MGZkZmViOTM3YTdjYjU3NDcifX19"
+    UUID: "0d64f95d-515a-4510-938b-706a9ceda071"
 
   DONKEY:
     Change: 0.001
@@ -56,8 +62,8 @@ SkullType:
     Lore:
       - ""
       - "&7斩首时间:&e&l %time%"
-
     Value: "eyJ0aW1lc3RhbXAiOjE0ODA0NDgzMTgzMDgsInByb2ZpbGVJZCI6IjU0NjRkZDY3NWE0NjQyMzk4NjJmYjI3YjQ5NDQ0NDJjIiwicHJvZmlsZU5hbWUiOiJEb25rZXkiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q4NDlkNDRlMjdiNTgxNWUzMzM1OGFjMGNmOGJhMWQ1ZmRmZDdkMTJkOTMyMWVmYjAxZWU3NjFjY2M1NzI0NyJ9fX0="
+    UUID: "5f28d414-9204-43f6-acb8-63ab86695cee"
 
   ELDER_GUARDIAN:
     Change: 0.001
@@ -66,6 +72,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTkyMDg5NjE4NDM1YTBlZjYzZTk1ZWU5NWE5MmI4MzA3M2Y4YzMzZmE3N2RjNTM2NTE5OWJhZDMzYjYyNTYifX19"
+    UUID: "54b32e32-642f-4397-a338-96e9c31c83d1"
 
   ENDERMAN:
     Change: 0.001
@@ -74,6 +81,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTZjMGIzNmQ1M2ZmZjY5YTQ5YzdkNmYzOTMyZjJiMGZlOTQ4ZTAzMjIyNmQ1ZTgwNDVlYzU4NDA4YTM2ZTk1MSJ9fX0="
+    UUID: "4dc3baf4-c0e4-4753-9ee7-51ba94962345"
 
   ENDERMITE:
     Change: 0.001
@@ -82,6 +90,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0Nzk1NjYyNTcxMDUsInByb2ZpbGVJZCI6IjNkZjZhMDUwYjkzZTRkOGI4ZmE0YjUyMjhhNzk3Yjg0IiwicHJvZmlsZU5hbWUiOiJNSEZfRW5kZXJtaXRlIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lOGM2Y2I4Y2VhYWQ1YTJhZDVjYzlhNjdiY2U2ZDViZGJmNWNiYjdlMzEyOTU1Y2NmOWYxNjI1MDkzNTViMSJ9fX0="
+    UUID: "6605a888-ef89-4381-800b-d01a702f1ddd"
 
   ENDER_DRAGON:
     Change: 0.001
@@ -90,6 +99,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTFjZDZkMmQwM2YxMzVlN2M2YjVkNmNkYWUxYjNhNjg3NDNkYjRlYjc0OWZhZjczNDFlOWZiMzQ3YWEyODNiIn19fQ=="
+    UUID: "f02c8007-7a92-48c6-aa02-28904dda3f0c"
 
   EVOKER:
     Change: 0.001
@@ -98,6 +108,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODEwMzc0MTI4MTYsInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRiNjJiNmU4ZTg3OWU5NmM2NGJjNzdjYWYzM2Y4N2E0OGU4YTFiYWQ3NjM1NjliZmU4ZDQzYzlhMWQ4MjIifX19"
+    UUID: "b26aa569-9a1a-44b5-b8c4-02c238e6bd79"
 
   GHAST:
     Change: 0.001
@@ -106,6 +117,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0NjczMTI4OTc0MzMsInByb2ZpbGVJZCI6ImRhNzQ2NWVkMjljYjRkZTA5MzRkOTIwMTc0NDkxMzU1IiwicHJvZmlsZU5hbWUiOiJJc2F5bGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZmZDY4ODZmZjUxMzViYWNkYzdhMjFjOWRiZDI0MmMwZGNhNWIyOWJiYTIyYmFjY2E0MjdhZjA1NDM1ZGU5In19fQ=="
+    UUID: "a1b0ce9a-b6ee-497a-9c70-4991097a194b"
 
   GIANT:
     Change: 0.001
@@ -114,6 +126,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNmYjRlNWRiOTdmNDc5YzY2YTQyYmJkOGE3ZDc4MWRhZjIwMWE4ZGRhZjc3YWZjZjRhZWY4Nzc3OWFhOGI0In19fQ=="
+    UUID: "c30bb087-c7e0-4651-b558-82f83007c4fd"
 
   GUARDIAN:
     Change: 0.001
@@ -122,6 +135,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODAwNzQ5NzMwNzUsInByb2ZpbGVJZCI6IjNlMjZiMDk3MWFjZDRjNmQ5MzVjNmFkYjE1YjYyMDNhIiwicHJvZmlsZU5hbWUiOiJOYWhlbGUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkzMmMyNDUyNGM4MmFiM2IzZTU3YzIwNTJjNTMzZjEzZGQ4YzBiZWI4YmRkMDYzNjliYjI1NTRkYTg2YzEyMyJ9fX0="
+    UUID: "7bfd3e27-b5c1-45a3-92b5-5f795788b8df"
 
   HORSE:
     Change: 0.001
@@ -130,6 +144,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODEwMzQwODAwMzcsInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQxYWU5NmY3NDU1M2I0OWFiYzI5NmZkNDg0N2VhZTQ5OTM5NWM5MDgzNDE2ZjU5YmM3YzIxMDQ0NjhhMSJ9fX0="
+    UUID: "8f8b774c-2792-46d9-88b1-e62d814eda1b"
 
   HUSK:
     Change: 0.001
@@ -138,6 +153,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODEwMTM5OTY1OTksInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGVlMjgyMjk1YjJhN2VhNWVkOWUyNDk3NjRjMzhjYTE4OTEyYWUwMjdkY2VhOWRkZDZkZDAzZDVhNmJmZTgwIn19fQ=="
+    UUID: "f4b1eb59-52bd-4625-90dc-40a23e099a28"
 
   ILLUSIONER:
     Change: 0.001
@@ -146,6 +162,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0OTQ3NzM4NzUxODQsInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Y0MjM1MjI1NDcyNWNiNGJiYzEyNTAxMzRmODEwZjdmZTA0ZDVkNWRlMzcyNGMyNWZkZGVlYTZmMjEifX19"
+    UUID: "65b00fd8-986b-42d7-8bc0-0396c2740004"
 
   IRON_GOLEM:
     Change: 0.001
@@ -154,6 +171,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0NjczMTI5MzQ4MDksInByb2ZpbGVJZCI6IjNlMjZiMDk3MWFjZDRjNmQ5MzVjNmFkYjE1YjYyMDNhIiwicHJvZmlsZU5hbWUiOiJOYWhlbGUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FlZWYzYTIzZWE1ZWNhYmUyZjFmZmIzN2I2MzNlZmU2NmQxZTVhN2Y2MmI1MDk4ZTY3MzQ2NGVhM2QxNzNlNSJ9fX0="
+    UUID: "92f353b6-0cd4-407d-ba02-3a46f587976b"
 
   LLAMA:
     Change: 0.001
@@ -162,6 +180,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODEwMzk4MDA3OTMsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJJbnZlbnRpdmVHYW1lcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY5MTQ2YzRmMzJmYjg4OTk4Nzk3NjVkYzVjYWMwYjczNmQ5MTg1ZWZjYzIxZGYyMWM5YjNhODZhZDA3YiJ9fX0="
+    UUID: "458e0568-788b-46d2-b774-96ec096a74b2"
 
   MAGMA_CUBE:
     Change: 0.001
@@ -170,6 +189,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0NjczMTI5NjExNTUsInByb2ZpbGVJZCI6IjQzYTgzNzNkNjQyOTQ1MTBhOWFhYjMwZjViM2NlYmIzIiwicHJvZmlsZU5hbWUiOiJTa3VsbENsaWVudFNraW42Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNWZmNjhlYzRmM2MxYWNkNGU5Njk3YTI0NTM2YjZhZjQ0ZWJjNzE2N2M0MzQxYWE0YmNjODA0MzM5ZjQxNzUwIn19fQ=="
+    UUID: "2a872740-f80b-4c17-bd5d-8139ab6f1ed4"
 
   MULE:
     Change: 0.001
@@ -178,6 +198,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODEwMzQ3MTIwMzAsInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI5ZjQwNjc4NWY5ZjJmOWM0N2VhZmFjN2MzOTRkMGVjZGYyZTI2ZTM2OTE1Zjk5MWZjMWIyZTk2ZGQ3NyJ9fX0="
+    UUID: "c40d59a0-4bf0-4497-bee9-27534cbab08e"
 
   MUSHROOM_COW:
     Change: 0.001
@@ -186,6 +207,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0NjczMTI5ODg0NDQsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJJbnZlbnRpdmVHYW1lcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGRkNGY1YmY3Y2JhNzhmNjEyYzMyN2U1YmI3ZmRlNGIzODM0OTI1MDQ3ZWQxOTQ3ODQ4NTQ1Yzk4MjNkMjgxNiJ9fX0="
+    UUID: "304b4fad-0b90-48ba-a529-cca69b04028f"
 
   OCELOT:
     Change: 0.001
@@ -195,6 +217,7 @@ SkullType:
       - "&7斩首时间:&e&l %time%"
 
     Value: "eyJ0aW1lc3RhbXAiOjE0NjczMTMwMTgyNzEsInByb2ZpbGVJZCI6ImM5YjFmYTJiNjhkMjQ3N2U4NzgxYTYwNjMwMWIzMmFiIiwicHJvZmlsZU5hbWUiOiJBbnRob255OTE5MCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI2NmFmZjU1NTE2NWFjMTY5YWU3ZjZkNGE2ZjE4ZTQ5NDQzYjY2ODgyZWRhZGE2M2ZmMWNkMDkzMTBkN2QzIn19fQ=="
+    UUID: "b2385772-e00d-4397-a3b2-65515cdabfc1"
 
   PARROT:
     Change: 0.001
@@ -203,6 +226,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0OTQ3ODI5NjA4NjcsInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzVhZmI4MTJiM2NiZjQxN2QxNTM3NTFiZjBkNzVjZmRmY2ZkYWRjMzI4ZGU4MmQ4N2EyOWViZGE3MmEyNGQ3NiJ9fX0="
+    UUID: "e77e97fb-617d-41f4-89a9-8e450c3cd060"
 
   PIG:
     Change: 0.001
@@ -211,6 +235,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0NjczMTMwNTE5MTcsInByb2ZpbGVJZCI6IjY0MjQ4NTljNTk0NDQwNzdiZTllMzJiMTY0MjdjMTIwIiwicHJvZmlsZU5hbWUiOiIyMDkiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIxYTEzZGE3NTU4ZmViZjc4NjFkYjA0MTM4NGUxNmM4MTU2ZDBjNWExN2RhZmMyYjlkNjc4ZThmZCJ9fX0="
+    UUID: "35dc18ec-30ea-46bd-a66d-d5cfd55bd67c"
 
   PIG_ZOMBIE:
     Change: 0.001
@@ -219,6 +244,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0NjczMTMwNzUwNTIsInByb2ZpbGVJZCI6ImRhNzQ2NWVkMjljYjRkZTA5MzRkOTIwMTc0NDkxMzU1IiwicHJvZmlsZU5hbWUiOiJJc2F5bGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE4YWViNWFjOTk5M2I0ZTFiM2YyMDQ0ZmI1ZjRjNmI4NTc2ODY0OTVjYzZhNmVhZTQyOGVkZDA0ZDI1Mjg5OCJ9fX0="
+    UUID: "a051ab92-d2ec-4b9b-9fe6-a8531ff59e20"
 
   POLAR_BEAR:
     Change: 0.001
@@ -227,6 +253,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODEwMjMwNzE0OTIsInByb2ZpbGVJZCI6IjgyNGNmNDIzY2JhMDQ4NjQ4NDBiMTliNmRhM2VjMjc2IiwicHJvZmlsZU5hbWUiOiJFbmRlcnJfIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMDZmZGRkOTE4YTkyZmY2MjJiOGU1YjU5NWFkNWIxYTJkNjhhYzZmZDJjNjI4NzA0MjBlYjI2ZjUifX19"
+    UUID: "06476d64-5a35-4c02-aa93-392e35c6cdfb"
 
   RABBIT:
     Change: 0.001
@@ -235,6 +262,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODEwNDgxNjY0NjQsInByb2ZpbGVJZCI6ImZiZWMxMWQ0ODBhNzRjMWM5ZGUzNDEzNmExNmYxZGUwIiwicHJvZmlsZU5hbWUiOiJNSEZfUmFiYml0Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZWMyNDJlNjY3YWVlNDQ0OTI0MTNlZjQ2MWI4MTBjYWMzNTZiNzRkODcxOGU1Y2VjMWY4OTJhNmI0M2U1ZTEifX19"
+    UUID: "5b4f9740-d6f3-4888-b1fc-40b52338d3c4"
 
   SHEEP:
     Change: 0.001
@@ -243,6 +271,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0NjczMTMwOTkxMjcsInByb2ZpbGVJZCI6IjNlMjZiMDk3MWFjZDRjNmQ5MzVjNmFkYjE1YjYyMDNhIiwicHJvZmlsZU5hbWUiOiJOYWhlbGUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdiMzhhZDQ2YTkxNTJkNjY5ODI0ZmI2MzJlZGIyZWYyOGRkNTc5ZTE1ZDRmOGYzNzNmYmZiYjgwNDQ1MyJ9fX0="
+    UUID: "c8bfaa67-96c1-42ff-a015-857932a0e7e2"
 
   SHULKER:
     Change: 0.001
@@ -250,8 +279,8 @@ SkullType:
     Lore:
       - ""
       - "&7斩首时间:&e&l %time%"
-
     Value: "eyJ0aW1lc3RhbXAiOjE0ODEwNDYxNzY3MDgsInByb2ZpbGVJZCI6IjE2MGY3ZDhhYzZiMDRmYzg4OTI1OWU5ZDZjOWM1N2Q1IiwicHJvZmlsZU5hbWUiOiJNSEZfU2h1bGtlciIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFkMzUzNGQyMWZlODQ5OTI2MmRlODdhZmZiZWFjNGQyNWZmZGUzNWM4YmRjYTA2OWU2MWUxNzg3ZmYyZiJ9fX0="
+    UUID: "24038587-1d5d-4dc1-90ba-ddc008b3b3f7"
 
   SILVERFISH:
     Change: 0.001
@@ -260,6 +289,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE5MWRhYjgzOTFhZjVmZGE1NGFjZDJjMGIxOGZiZDgxOWI4NjVlMWE4ZjFkNjIzODEzZmE3NjFlOTI0NTQwIn19fQ=="
+    UUID: "06d5e0f6-7f5c-4d69-bc17-3db66b360eba"
 
   SKELETON:
     Change: 0.001
@@ -268,6 +298,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0NjczMTAwMTUxMTgsInByb2ZpbGVJZCI6IjQzYTgzNzNkNjQyOTQ1MTBhOWFhYjMwZjViM2NlYmIzIiwicHJvZmlsZU5hbWUiOiJTa3VsbENsaWVudFNraW42Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZTViZTZhM2MwMTU5ZDJjMWYzYjFlNGUxZDgzODRiNmY3ZWJhYzk5M2Q1OGIxMGI5Zjg5ODljNzhhMjMyIn19fQ=="
+    UUID: "6a2f17a2-c6e4-4c95-b813-94bd8bf4e41c"
 
   SKELETON_HORSE:
     Change: 0.001
@@ -276,6 +307,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODEwNDMwMTgwMDYsInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRjOGRmMTBmYjYwYjY1ZjRiYzk0ZGVhNGZmZGExYTIzY2M0ZDk5N2I5Njc2ODNkM2RhOWYxNTdjZjc3In19fQ=="
+    UUID: "2d44c87f-22d7-46b6-92c1-c4073d4b8ca8"
 
   SLIME:
     Change: 0.001
@@ -284,6 +316,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODExMDgyMDY3NDUsInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmEyMWY1ZGIwYjZjZGJlOWMwMzBjNWVmYTBmZjQxM2VkYzJjOWU5NjQ2Y2YzMmExZDljOGVkZjNlYTE1YSJ9fX0="
+    UUID: "018b96b3-8adb-458a-bd49-17e1db7b301e"
 
   SNOWMAN:
     Change: 0.001
@@ -292,6 +325,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODEwNDQyMDc0NTYsInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ1OTQ4ZDkzMDkxN2FlZTc2NzQxNDhhNmE1NWNlYjJhYTNmM2VjM2UxYTdmMTM2NjdmOTIxM2Y0NGRkY2FjIn19fQ=="
+    UUID: "66f2e590-69a2-4a87-aef1-0b51fe9b4305"
 
   SPIDER:
     Change: 0.001
@@ -300,6 +334,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0NjczMTMxODQ5MjksInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJJbnZlbnRpdmVHYW1lcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNmZDRlOTZmMjY4OTQxOTBjYTJjOGUyMTUwODJmZTE5MmZmMTdiYmI0NjQzMzJmN2VjYmZmYzhhYjczMiJ9fX0="
+    UUID: "d837ceab-bbb9-4c2d-8be8-0bb67470fc57"
 
   SQUID:
     Change: 0.001
@@ -308,6 +343,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0NjczMTMyNTczMDgsInByb2ZpbGVJZCI6ImM5YjFmYTJiNjhkMjQ3N2U4NzgxYTYwNjMwMWIzMmFiIiwicHJvZmlsZU5hbWUiOiJBbnRob255OTE5MCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjYxMTVhYjQ0MjM4NTgwM2QzNjc2NjViY2JiMzg0NmZmZDY5ZTljZTJmNDlhMWVmNmRlMjU2ZGM2Yzk3MjllIn19fQ=="
+    UUID: "203056de-5a52-4759-ba58-0df4ac986df9"
 
   STRAY:
     Change: 0.001
@@ -316,6 +352,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc4MGQxZjAyMTZlMjRlMmEzM2ZjYTQ3YjNlZjJjYmM0ZjM3Njg5ZGFkNTNmYWFmZDM0NDUxZDBkYmY4MTFmIn19fQ=="
+    UUID: "13908cd4-057f-458d-b00d-ccbe2e7aa91a"
 
   VEX:
     Change: 0.001
@@ -324,6 +361,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODEwMzk2MjM3NDQsInByb2ZpbGVJZCI6IjNlMjZiMDk3MWFjZDRjNmQ5MzVjNmFkYjE1YjYyMDNhIiwicHJvZmlsZU5hbWUiOiJOYWhlbGUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzBlNjZmZTIwZjMxMWViM2RlY2M2NDIwYWQyODFmY2FmMWQ2NmZmOTNkNDZhYTlkNWVjMzlmMmExMWUwMTAifX19"
+    UUID: "135d7528-7a8b-4211-8fe2-bea26b41d2b1"
 
   VILLAGER:
     Change: 0.001
@@ -332,6 +370,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0NjczMTMzMDYzOTcsInByb2ZpbGVJZCI6IjY0MjQ4NTljNTk0NDQwNzdiZTllMzJiMTY0MjdjMTIwIiwicHJvZmlsZU5hbWUiOiIyMDkiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I3Yjg5YjVkZDgyZGQ1ZTBkZjYxYjlkMDVjNWQ1YTNhZWU5ZmMwZjQzMmY2MmJjNTJlNTJiZGJkNTliNDJmNiJ9fX0="
+    UUID: "074fbca3-b3eb-4232-b9e2-671eb609d667"
 
   VINDICATOR:
     Change: 0.001
@@ -340,6 +379,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODEwMzkzMjI1ODQsInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJiMzkxYjc2Y2ZmOTRiYTk1MmNhM2NkNWNiOWY2MjZhMjRkZGNlMDNhOGQzNTgyYWQxYTI2YTc1YjZjMzIifX19"
+    UUID: "d3f6095c-96aa-491a-b394-c0a72ef51810"
 
   WITCH:
     Change: 0.001
@@ -348,6 +388,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODEwMjg4NDg0MTAsInByb2ZpbGVJZCI6ImZlZjg1YzQ5MmZkZjQ3Zjg5MTMyNTUyMDQ2MjQzMjIzIiwicHJvZmlsZU5hbWUiOiJNSEZfV2l0Y2giLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRlMzZjMTc0NWIxMWM2YjUzYWU1N2EzMjA4NjcxYTQ1OTVkOTk4ZDJhOWVmOGEyMzM4N2UyZWUzZGViYyJ9fX0="
+    UUID: "cadaf0ab-0bb0-4781-a9bf-70ce85543c9a"
 
   WITHER:
     Change: 0.001
@@ -356,6 +397,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODEwNDc1OTIxMzAsInByb2ZpbGVJZCI6IjM5YWY2ODQ0NjgwOTRkMmY4YmE0N2U5MmQwODdiZTE4IiwicHJvZmlsZU5hbWUiOiJNSEZfV2l0aGVyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZGY3NGUzMjNlZDQxNDM2OTY1ZjVjNTdkZGYyODE1ZDUzMzJmZTk5OWU2OGZiYjlkNmNmNWM4YmQ0MTM5ZiJ9fX0="
+    UUID: "bc2868cb-b426-4bd6-9f50-4fc9e593439c"
 
   WITHER_SKELETON:
     Change: 0.001
@@ -364,6 +406,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0NjczMTMzMzQ3NzAsInByb2ZpbGVJZCI6ImRhNzQ2NWVkMjljYjRkZTA5MzRkOTIwMTc0NDkxMzU1IiwicHJvZmlsZU5hbWUiOiJJc2F5bGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzM2I0MWZhNzljZDUzYTIzMGUyZGI5NDI4NjM4NDMxODNhNzA0MDQ1MzNiYmMwMWZhYjc0NDc2OWJjYiJ9fX0="
+    UUID: "2efcad5f-7aea-45ec-adeb-d183ee7ada63"
 
   WOLF:
     Change: 0.001
@@ -372,6 +415,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0NjczMTA3MTMyNTgsInByb2ZpbGVJZCI6IjQzYTgzNzNkNjQyOTQ1MTBhOWFhYjMwZjViM2NlYmIzIiwicHJvZmlsZU5hbWUiOiJTa3VsbENsaWVudFNraW42Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNzY4Y2JkNTIxY2IxODViMjc2NzJjZTQzMGZjNDg1MGQ3NTk1YzZlODc3OGUwNzI3MWM5NTc5ZWQxZjVhZmI1In19fQ=="
+    UUID: "e87ddd1c-18d8-473c-b942-782b1ce2a595"
 
   ZOMBIE:
     Change: 0.001
@@ -380,6 +424,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0NjczMTAxMjg5MzAsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJJbnZlbnRpdmVHYW1lcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZmYzg1NGJiODRjZjRiNzY5NzI5Nzk3M2UwMmI3OWJjMTA2OTg0NjBiNTFhNjM5YzYwZTVlNDE3NzM0ZTExIn19fQ=="
+    UUID: "36b09340-623a-4fef-8e65-b9b1302b14bb"
 
   ZOMBIE_HORSE:
     Change: 0.001
@@ -388,6 +433,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODEwMzQ1NDU0MzYsInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWI1NGYyYmMyYjZmNTlhYmI4YzNmOWQ2YzNhMzE1NGUzZmVmZTIzOGYyYmFkNTkzZGIyZGU3ZmEzYTQifX19"
+    UUID: "ef064158-174f-416f-b0d2-c2941d1290d7"
 
   ZOMBIE_VILLAGER:
     Change: 0.001
@@ -396,6 +442,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODEwNDMyOTY4NTUsInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZkNTM4ZDg2NTdkYjU4YjhiMWE1YmUyMzkzMTExMmFhNzhiNTVmMWZhNWNiNzQwODM4YjVlMmNjMDg2OGVhNCJ9fX0="
+    UUID: "04c1f405-f3e7-456e-9660-6e77adc03816"
 
   DROWNED:
     Change: 0.001
@@ -404,6 +451,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE1MzI2MTU4MjAyNjcsInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU2NjM0ZDFhNTg1ZjViM2IxMTNlNzY3Mjc3Y2QwM2Y4ODllMWQwODJlNDRmNmEyYjMzNWQ5N2QzMjFhNTYyNCJ9fX0="
+    UUID: "0d6aeb4d-651e-4373-9669-f2af91ce2332"
 
   PHANTOM:
     Change: 0.001
@@ -412,6 +460,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE1MzI2MTY0OTgwNzMsInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U5NTE1M2VjMjMyODRiMjgzZjAwZDE5ZDI5NzU2ZjI0NDMxM2EwNjFiNzBhYzAzYjk3ZDIzNmVlNTdiZDk4MiJ9fX0="
+    UUID: "cf08f4a4-112b-439b-bfe2-634c858f992c"
 
   DOLPHIN:
     Change: 0.001
@@ -420,6 +469,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE1MzI2MTY1OTA1MDcsInByb2ZpbGVJZCI6IjIzZDE4YjNhN2E1NjQyM2E4NDZmZGJlNGVjYjJmNzJmIiwicHJvZmlsZU5hbWUiOiJHZW1pbml4UGxheXMiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU0NmZkMzRiMDZjNjFmNjhlOTRmMzU3ZjM4ZTYyZDMzNGUzMzllZGYyYjkzMGQyNjk1MTk3MTkyMWJiYjUyNjgifX19"
+    UUID: "acff942a-7985-4480-b35c-d97c99ddb7c3"
 
   TURTLE:
     Change: 0.001
@@ -428,6 +478,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE1MzE2NTI5NDAzODIsInByb2ZpbGVJZCI6IjEwZDE1NzE1ZWVkNzRiMjY5YzFlOWEyOGMyY2RlMGUzIiwicHJvZmlsZU5hbWUiOiJUb3hpY19UdXJ0bGVfMjA5Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83OGRkMjZkYjFmMjBkNTc2MDEzZmRkMWY2MDlkZDcwYWY1NDBmYTk3Y2M1MWUwNmNkZmE2OGI1OGY3YjVlYzU2In19fQ=="
+    UUID: "00df3daa-330d-4598-b92e-0e49165bb2d7"
 
   TROPICAL_FISH:
     Change: 0.001
@@ -436,6 +487,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE1MzI2MTY2ODI0NDUsInByb2ZpbGVJZCI6IjkxOGEwMjk1NTlkZDRjZTZiMTZmN2E1ZDUzZWZiNDEyIiwicHJvZmlsZU5hbWUiOiJCZWV2ZWxvcGVyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMDBjZWY0Yjc2ODMxNTM1MzJiYzQ4MjdhMTdjMjdhYjFhMTA1NTk4NTk3YTE1YTQ0YzRlNGYyNDY3MWMzZmZlIn19fQ=="
+    UUID: "be5dd54c-5c82-4d9a-b9eb-7f19a8cad68e"
 
   PUFFERFISH:
     Change: 0.001
@@ -444,6 +496,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODYwMjE1ODI1NzQsInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZlMzg0NzBjMjc1OTU2MmU0NTU5NTQ5NmFhYjcyZWVhMjI4OTEyNGZhZTVjMmFiYWE3NjlhNmVkMjg1MDQifX19"
+    UUID: "be5dd54c-5c82-4d9a-b9eb-7f19a8cad68e"
 
   COD:
     Change: 0.001
@@ -452,6 +505,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODYwMjIyMjA2NjAsInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzE3MTI1MWQyNDkwZmVkYmYyMmNjZGNmZGFhZDIzN2M3YmIyMzFhNjM2ZDUxY2M0ZWMwOTA1NTRkMTRlYTg3In19fQ=="
+    UUID: "9e470b35-7775-4f22-898a-2684fe21c0c0"
 
   SALMON:
     Change: 0.001
@@ -460,6 +514,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE0ODYwMjM0NzU1NDksInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjAxMmNjZThkNTZlNDRmNzZkOTJiNDg4NThlNTgyYjk1YTQ1ZWU2NjRmYTYyNjBiYWIwOGMzMmU5ZTgxNCJ9fX0="
+    UUID: "cfc869c3-6d4b-4f75-9a9b-501fa380dba1"
 
   # 1.14
   CAT:
@@ -469,6 +524,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM4OWUwZDVkM2U4MWY4NGI1NzBlMjk3ODI0NGIzYTczZTVhMjJiY2RiNjg3NGI0NGVmNWQwZjY2Y2EyNGVlYyJ9fX0="
+    UUID: "f27cfaf6-01d5-4c62-9d49-62cfa6ddfd6e"
 
   FOX:
     Change: 0.001
@@ -477,6 +533,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE1NTYyODM2Mjk0MTksInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjAwYzQ2ZDIxZTY5ZGM5MTBhOWM1ODc4MjliY2JkYzEyNDc4NDJlZTdkNmQzZTQ5Y2M1Y2U2NTI5ZTI3MWI3ZSJ9fX0="
+    UUID: "1c0c7f53-591d-40e9-9429-028053773a5a"
 
   RAVAGER:
     Change: 0.001
@@ -485,6 +542,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE1NTYyODQ3MTA1MjgsInByb2ZpbGVJZCI6IjgyYzYwNmM1YzY1MjRiNzk4YjkxYTEyZDNhNjE2OTc3IiwicHJvZmlsZU5hbWUiOiJOb3ROb3RvcmlvdXNOZW1vIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zOTFmYjY0YTA1ODYwMGY1YTU3OWNmMTEzZDBkZDZjYTFjMDZkMjg0Mzg5ZDQzZGJmZjQ1NzNiMjkxM2IzNTE0In19fQ=="
+    UUID: "71719606-b596-47c9-b46b-c45958f94b4f"
 
   PANDA:
     Change: 0.001
@@ -493,6 +551,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE1NTYyODM3NjQyNDUsInByb2ZpbGVJZCI6IjkxZmUxOTY4N2M5MDQ2NTZhYTFmYzA1OTg2ZGQzZmU3IiwicHJvZmlsZU5hbWUiOiJoaGphYnJpcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVkZWEzYTgyYjlmYWZjOGFmODllMjI5YzM1NzE5MzZjZjI2Njk2ZmEwYWViY2VlNTMwOWY4MTg4OTBmNjhmOCJ9fX0="
+    UUID: "07f28ce5-2573-4ada-95cb-f52d87f0d1d2"
 
   WANDERING_TRADER:
     Change: 0.001
@@ -501,6 +560,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FlYTJlODAzZjIyYmNhOWFhOTA5ODI2NGE5YTY2NDljODI1N2I4MTIyMmNjMDE2MDRiMjQ4MDQ1NmFkNzkyMiJ9fX0="
+    UUID: "dd24ae13-e245-4612-8e98-7714446222d9"
 
   PILLAGER:
     Change: 0.001
@@ -509,6 +569,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE1NTYyODQwMzYwNjAsInByb2ZpbGVJZCI6IjVkODgxNDRhMzhjYzRkZWVhODA3MzYwODc2YzIxYzU4IiwicHJvZmlsZU5hbWUiOiJSZW1WTiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM1NTBmODlhZWE4ODY2NTgwNGMyZmQxYjY2ODI5MzBjMjMyMzMxODRmZGMwNjA5OTEzMDU3MThlZDY2MDU5NyJ9fX0="
+    UUID: "346722a3-aea5-4cda-bc8d-44161ea11857"
 
   TRADER_LLAMA:
     Change: 0.001
@@ -517,6 +578,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: " eyJ0aW1lc3RhbXAiOjE1NTc2MDA0NDkyNTYsInByb2ZpbGVJZCI6IjM4NjcwNTM3MmZjNDQwNDNiMGQwYTNjOWU1MWRlOWJiIiwicHJvZmlsZU5hbWUiOiJFbnRpdHlMbGFtYVNwaXQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ5YmM0ODY4MWFjODA2M2ZjNjJkNDg0MzE5NDM1NjMzZTRjMDJlZGE1MzAwZTA3Zjg0MmYxNjVhY2FmM2FhOTIifX19"
+    UUID: "cdc12a78-668a-4b62-9a27-240ca9809851"
 
   # 1.15
   BEE:
@@ -526,6 +588,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE1NzU3NDU5MTk5MTQsInByb2ZpbGVJZCI6IjgyYzYwNmM1YzY1MjRiNzk4YjkxYTEyZDNhNjE2OTc3IiwicHJvZmlsZU5hbWUiOiJOb3ROb3RvcmlvdXNOZW1vIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNTI0ODIzZTg2YjYyNWZhNzYxY2E3ZjgwZDA4ODQzODE4MTM2ZWRjYzE3MmI2MjgwNDdiYWIzNTkyMDgzMDEwIn19fQ=="
+    UUID: "45c7a47d-8004-440a-bbba-0a34435e2e62"
 
   # 1.16
   PIGLIN:
@@ -535,6 +598,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0aW1lc3RhbXAiOjE1ODE4OTU1MTM0MjYsInByb2ZpbGVJZCI6ImVkNTNkZDgxNGY5ZDRhM2NiNGViNjUxZGNiYTc3ZTY2IiwicHJvZmlsZU5hbWUiOiJGb3J5eExPTCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2MwYWQzZGRlYmY4OGNlMzk1M2I1NzcyZmRkMDI4OGI2ZjhlZGQ4YTAwMzFjZWVlZTVjZGNkNTk0NDFmMTNmNyJ9fX0="
+    UUID: "ebe20a78-bca5-464a-be7f-08cc65c98df0"
 
   STRIDER:
     Change: 0.001
@@ -543,6 +607,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThhOWFkZjc4MGVjN2RkNDYyNWM5YzA3NzkwNTJlNmExNWE0NTE4NjY2MjM1MTFlNGM4MmU5NjU1NzE0YjNjMSJ9fX0="
+    UUID: "1e7be20d-260b-4300-9b8f-f8fefddc623a"
 
   HOGLIN:
     Change: 0.001
@@ -551,6 +616,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJiOWJjMGYwMWRiZDc2MmEwOGQ5ZTc3YzA4MDY5ZWQ3Yzk1MzY0YWEzMGNhMTA3MjIwODU2MWI3MzBlOGQ3NSJ9fX0="
+    UUID: "e3ab6527-6e2f-4181-9ce9-98015f6f1362"
 
   ZOGLIN:
     Change: 0.001
@@ -559,6 +625,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2M4YzdjNWQwNTU2Y2Q2NjI5NzE2ZTM5MTg4YjIxZTdjMDQ3NzQ3OWYyNDI1ODdiZjE5ZTBiYzc2YjMyMjU1MSJ9fX0="
+    UUID: "ec7a4fde-4b2f-4b5b-be54-344dcb1c99b9"
 
   PIGLIN_BRUTE:
     Change: 0.001
@@ -567,6 +634,7 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzMDBlOTAyNzM0OWM0OTA3NDk3NDM4YmFjMjllM2E0Yzg3YTg0OGM1MGIzNGMyMTI0MjcyN2I1N2Y0ZTFjZiJ9fX0="
+    UUID: "3686ed89-bfa9-4ebd-ba4b-ade4d30c1e8d"
 
   ZOMBIFIED_PIGLIN:
     Change: 0.001
@@ -575,6 +643,8 @@ SkullType:
       - ""
       - "&7斩首时间:&e&l %time%"
     Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzMDBlOTAyNzM0OWM0OTA3NDk3NDM4YmFjMjllM2E0Yzg3YTg0OGM1MGIzNGMyMTI0MjcyN2I1N2Y0ZTFjZiJ9fX0="
+    UUID: "005746e6-55fd-423d-954a-f3199096337a"
+
   钢铁侠:
     Change: 0.001
     DisplayName: "&d&l钢铁侠的头"
@@ -582,6 +652,8 @@ SkullType:
       - ""
       - "&7钢铁侠的头颅, 抽奖获取"
     Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZiNjgzMGVjNTA2ZjA0MGFkNGEyNGZhMmM3NWE4YmFmOWNjZWQ0ODVhZDEwMTRjMjFiNjNjZDRlMWNmMTI0NiJ9fX0="
+    UUID: "005746e6-55fd-423d-954a-f3199096338a"
+
   绿巨人:
     Change: 0.001
     DisplayName: "&d&l绿巨人的头"
@@ -589,6 +661,7 @@ SkullType:
       - ""
       - "&7绿巨人的头颅, 购买VIP赠送"
     Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY3ODZmZjk3NTkyMGE3NjU1ZGYwMjA2ODk2N2FiMTM3ZGZhNTk1MGE3ZTgzNmEyNGQxY2JiMTFlYWFhNmUifX19"
+    UUID: "005746e6-55fd-423d-954a-f3199096339a"
 
 Player:
   Change: 0.001

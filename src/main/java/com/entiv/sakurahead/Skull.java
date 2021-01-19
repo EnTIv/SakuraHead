@@ -22,8 +22,8 @@ class Skull {
 
     String type;
     final String displayName;
-
     final String texturesValue;
+    final String uuid;
 
     final double change;
 
@@ -33,7 +33,7 @@ class Skull {
 
     private final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
-    Skull(double change, String type, List<String> lore, String texturesValue) {
+    Skull(double change, String type, List<String> lore, String texturesValue, String uuid) {
 
         lore.replaceAll(s -> s.replace("%time%", simpleDateFormat.format(this.data)));
 
@@ -43,6 +43,7 @@ class Skull {
         this.displayName = Message.toColor(type);
         this.texturesValue = texturesValue;
         this.change = change;
+        this.uuid = uuid;
     }
 
     double getChange() {
@@ -61,7 +62,7 @@ class Skull {
         NBTItem nbtItem = new NBTItem(head);
 
         NBTCompound skull = nbtItem.addCompound("SkullOwner");
-        skull.setString("Id", UUID.randomUUID().toString());
+        skull.setString("Id", uuid);
 
         NBTListCompound texture = skull.addCompound("Properties").getCompoundList("textures").addCompound();
         texture.setString("Value", texturesValue);
