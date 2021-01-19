@@ -116,7 +116,8 @@ public class EntityListener implements Listener {
         SkullMeta itemMeta = (SkullMeta) itemStack.getItemMeta();
         Player killed = (Player) event.getEntity();
 
-        itemMeta.setDisplayName(plugin.getConfig().getString("Player.DisplayName").replace("%killed%", killed.getName()));
+        String display = plugin.getConfig().getString("Player.DisplayName");
+        itemMeta.setDisplayName(Message.toColor(display.replace("%killed%", killed.getName())));
         itemMeta.setOwningPlayer(killed);
         itemStack.setItemMeta(itemMeta);
 
