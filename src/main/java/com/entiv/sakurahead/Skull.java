@@ -5,12 +5,15 @@ import com.mojang.authlib.properties.Property;
 import de.tr7zw.nbtapi.NBTCompound;
 import de.tr7zw.nbtapi.NBTItem;
 import de.tr7zw.nbtapi.NBTListCompound;
+import org.apache.commons.codec.binary.Base64;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.SkullMeta;
 import org.bukkit.plugin.Plugin;
 
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
@@ -20,18 +23,14 @@ import java.util.UUID;
 
 class Skull {
 
-    String type;
     final String displayName;
     final String texturesValue;
     final String uuid;
-
     final double change;
-
     final List<String> lore;
-
     private final Date data = new Date();
-
     private final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+    String type;
 
     Skull(double change, String type, List<String> lore, String texturesValue, String uuid) {
 
@@ -55,7 +54,14 @@ class Skull {
         String version = Bukkit.getVersion();
 
         if (nbtapi == null || version.contains("arclight")) {
-            return noNBTItem(texturesValue);
+
+            int versionInt = Integer.parseInt(Bukkit.getBukkitVersion().split("\\.")[1]);
+
+            if (versionInt >= 13) {
+                return noNBTItem(texturesValue);
+            } else {
+                throw new NullPointerException("请安装 NBT-API 再尝试");
+            }
         }
 
         ItemStack head = new ItemStack(Material.SKULL_ITEM, 1, (short) 3);

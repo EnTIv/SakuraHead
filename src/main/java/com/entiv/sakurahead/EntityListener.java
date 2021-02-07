@@ -49,6 +49,8 @@ public class EntityListener implements Listener {
 
             Skull entitySkull = Main.getInstance().getSkull(entityType);
 
+            if (entitySkull == null) return;
+
             if (entitySkull.getChange() >= Math.random()) {
                 giveMobSkull(entitySkull, event);
                 sendTitle(killer);

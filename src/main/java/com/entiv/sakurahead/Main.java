@@ -54,8 +54,10 @@ public class Main extends JavaPlugin {
         ConfigurationSection skullType = getConfigurationSection();
 
         String name = entityType.name();
+
         if (skullType.getString(name) == null) {
             Message.sendConsole("&9&lSakuraHead &6&l>> &c生物" + name + "不存在, 请检查配置文件");
+            return null;
         }
 
         double change = skullType.getDouble(entityType + ".Change");
